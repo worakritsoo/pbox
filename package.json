@@ -1,0 +1,29 @@
+{
+	"name": "pbox",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.3.1",
+		"cssnano": "^5.0.6",
+		"fuse.js": "^6.4.6",
+		"mdsvex": "^0.9.8",
+		"mongoose": "^5.13.5",
+		"nanoid": "^3.1.23",
+		"postcss": "^8.3.5",
+		"postcss-load-config": "^3.1.0",
+		"svelte": "^3.34.0",
+		"svelte-check": "^2.0.0",
+		"svelte-preprocess": "^4.7.4",
+		"tailwindcss": "^2.2.4",
+		"tslib": "^2.0.0",
+		"typescript": "^4.0.0"
+	},
+	"type": "module"
+}
