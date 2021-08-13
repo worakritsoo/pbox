@@ -3,7 +3,40 @@
 @tailwind components;
 @tailwind utilities;
 
+#svelte {
+  @apply flex flex-col h-screen;
+}
+ul {
+  @apply flex justify-around;
+}
+a {
+  @apply text-indigo-500 hover:underline;
+}
+input{
+  @apply outline-none;
+}
 
-ul{
-    @apply flex justify-around;
+.form {
+  @apply outline-none border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent;
+}
+.btn {
+  @apply py-2 px-4 font-semibold rounded-lg shadow-md;
+}
+.btn-green {
+  @apply text-white bg-green-500 hover:bg-green-700;
+}
+.btn-1 {
+  @apply text-white bg-indigo-500 hover:bg-indigo-700;
+}
+
+:root {
+  --ion-color-primary: #99ff;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+summary {
+  @apply list-none select-none;
 }
